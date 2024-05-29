@@ -35,4 +35,12 @@ return [
         ],
     ],
 
+    'trello' => [
+        'base_url' => env('TRELLO_BASE_URL', 'https://api.trello.com/1'),
+        'api_key' => env('TRELLO_API_KEY'),
+        'api_secret' => env('TRELLO_API_SECRET'),
+        'api_token' => env('TRELLO_API_TOKEN'),
+        'board_id' => env('TRELLO_BOARD_ID'),
+        'list_id' => env('TRELLO_LIST_ID'),
+    ],
 ];
